@@ -49,8 +49,8 @@ curl -X PUT http://example.host:3333/nad/c368/v1.0/Main/Power/on
 # Overview of commands for NAD C328
 
 Übersicht von RS232 Befehlen für den NAD C328Permalink
-Ein- und Ausschalten: Main.Power=ON|OFF
-Quelle eines vor/zurück schalten: Main.Source+|-
-Direkte Quelle anwählen: Main.Source=STREAM|OPT1|OPT2|BT|TV
-Lautstärke um im ein Inkrement erhöhen/verringern: Main.Volume+|-
-Direkte Lautstärke einstellen: Main.Volume=-20
+* Ein- und Ausschalten: `Main.Power=ON|OFF`
+* Quelle eines vor/zurück schalten: Main.Source+|-
+* Direkte Quelle anwählen: Main.Source=STREAM|OPT1|OPT2|BT|TV
+* Lautstärke um im ein Inkrement erhöhen/verringern: Main.Volume+|-
+* Direkte Lautstärke einstellen: Main.Volume=-20
